@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x /atlas-shell/permissions/hello\n
+chmod u+x /atlas-shell/permissions/hello\
