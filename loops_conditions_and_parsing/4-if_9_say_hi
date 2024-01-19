@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 # Displaying Best School 10 times with a while loop
 TACOS=0
-while [ $TACOS -lt 9 ]
+while [ $TACOS -lt 10 ]
 do
-        echo "Best School"
-        ((TACOS++))
-	if [ $TACOS -eq 9 ]
-	then echo "Hi"
+        if [ $TACOS -ne 9 ]
+	then
+		echo "Best School"
+	else
+		echo "Hi"
 	fi
+	((TACOS++))
 done
-
