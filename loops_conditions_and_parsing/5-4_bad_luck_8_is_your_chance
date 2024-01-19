@@ -4,7 +4,7 @@
 # displays good luck for the 8th loop iteration
 # displays Best School for the other iterations
 TACOS=0
-while [ $TACOS -le 10 ]
+while [ $TACOS -le 9 ]
 do
         if [ $TACOS -eq 3 ]
         then
