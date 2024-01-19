@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Write Best School 10 times with until loop
+#!/usr/bin/env bash
+# Displaying Best School 10 times with a while loop
+TACOS=0
+until [ $TACOS -gt 9 ]
+do
+        echo "Best School"
+        ((TACOS++))
+done
