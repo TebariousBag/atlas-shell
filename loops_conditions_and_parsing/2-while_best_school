@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displaying Best School 10 times with a while loop
+TACOS=0
+while [ $TACOS -lt 10 ]
+do
+       	echo "Best School"
+       	TACOS=$(($TACOS + 1))
+done
