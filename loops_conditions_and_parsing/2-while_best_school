@@ -4,5 +4,5 @@ TACOS=0
 while [ $TACOS -lt 10 ]
 do
        	echo "Best School"
-       	TACOS=$(( + 1))
+	((TACOS++))
 done
