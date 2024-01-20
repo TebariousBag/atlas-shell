@@ -9,7 +9,7 @@
 		case $TACOS in
 			4 )
 			echo $TACOS
-			echo " bad luck from China" ;;
+			echo "bad luck from China" ;;
 			9 )
 			echo $TACOS
 			echo "bad luck from Japan" ;;
