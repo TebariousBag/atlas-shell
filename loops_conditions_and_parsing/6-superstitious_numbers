@@ -3,7 +3,7 @@
 # displays bad luck China for the 4th loop iteration
 # displays bad luck Japan for the 9th loop iteration
 # displays bad luck Italy for the 17th loop iteration
-	TACOS=0
+	TACOS=1
 	while [ $TACOS -le 20 ]
 	do
 		case $TACOS in
