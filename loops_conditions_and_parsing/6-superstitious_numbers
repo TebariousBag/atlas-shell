@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# display 20 lines of numbers
+# displays bad luck China for the 4th loop iteration
+# displays bad luck Japan for the 9th loop iteration
+# displays bad luck Italy for the 17th loop iteration
+	TACOS=0
+	while [ $TACOS -le 20 ]
+	do
+		case $TACOS in
+			4 )
+			echo $TACOS
+			echo " bad luck from China" ;;
+			9 )
+			echo $TACOS
+			echo "bad luck from Japan" ;;
+			17 )
+			echo $TACOS
+			echo "bad luck from Italy" ;;
+			* )
+			echo $TACOS ;;
+		esac	
+       		((TACOS++))
+	done
