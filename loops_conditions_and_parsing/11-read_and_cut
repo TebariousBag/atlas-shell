@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ##
-file="/etc/passwd"
-
-while IFS= read -r line; do
-  echo "$line" | cut -d ':' -f1,3,6
-done < "$file"
+input="/etc/passwd"
+while IFS= read -r line
+do
+	echo "$line" | cut -d':' --fields=1,3,6
+done < "$input"
