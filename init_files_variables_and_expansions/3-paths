@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | cut -d ':' | sort | wc -l
+echo $PATH | cut -d ':' -f * | sort | wc -l
