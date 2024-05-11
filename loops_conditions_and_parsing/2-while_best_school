@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #Prints Best School using a while loop
 
 	count=0
