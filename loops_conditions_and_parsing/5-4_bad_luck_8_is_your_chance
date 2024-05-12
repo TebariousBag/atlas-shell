@@ -3,13 +3,13 @@
 
         count=0
 
-        while [ $count -le 10 ]
+        while [ $count -le 9 ]
         do
-                if [ $count = 4 ]
+                if [ $count = 3 ]
                 then
                         echo "bad luck"
                 elif
-                        [ $count = 8 ]
+                        [ $count = 7 ]
                 then    
 			echo "good luck"
                 else
