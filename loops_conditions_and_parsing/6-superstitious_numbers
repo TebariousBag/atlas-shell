@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#prints numbers 1-20
+#displays 4 and then bad luck from China for the 4th loop iteration
+#displays 9 and then bad luck from Japan for the 9th loop iteration
+#displays 17 and then bad luck from Italy for the 17th loop iteration
+
+		michelle=1
+
+	while [ $michelle -le 20 ]
+		do
+			case $michelle in
+
+			4 )
+				echo "$michelle"
+				echo "bad luck from China" ;;
+			9 )
+				echo "$michelle"
+				echo "bad luck from Japan" ;;
+			17 )
+				echo "$michelle"
+				echo "bad luck from Italy" ;;
+			* )
+				echo "$michelle" ;;
+
+			esac
+
+		((michelle++))
+	done
