@@ -3,7 +3,7 @@
 
         count=0
 
-        while ($count -le 10)
+        while [ $count -le 10 ]
         do
                 if [ $count = 4 ]
                 then
@@ -15,6 +15,6 @@
                 else
                         echo "Best School"
                 fi
-		((count++))
+		((count++)i)
         done
 
