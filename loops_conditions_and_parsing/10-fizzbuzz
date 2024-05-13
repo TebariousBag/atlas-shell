@@ -17,5 +17,5 @@
 		else
 			echo "$COUNTER"
 		fi
-		COUNTER=$(( COUNTER++ ))
+		COUNTER=$(( COUNTER + 1 ))
 	done
